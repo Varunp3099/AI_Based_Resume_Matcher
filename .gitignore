@@ -57,10 +57,32 @@ models/*.npy
 models/sbert_model/
 
 # ==============================
+# ML caches
+# ==============================
+.cache/
+.huggingface/
+nltk_data/
+spacy_models/
+
+# ==============================
 # Secrets & environment variables
 # ==============================
 .env
 .env.*
+.env.local
+.env.dev
+.env.prod
+
+# ==============================
+# Docker
+# ==============================
+.docker/
+docker-compose.override.yml
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/
 
 # ==============================
 # Build / distribution
@@ -75,3 +97,5 @@ dist/
 .coverage
 .pytest_cache/
 htmlcov/
+.prof
+*.prof

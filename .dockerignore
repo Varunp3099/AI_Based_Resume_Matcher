@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+
+# Data uploads
+data/resumes/*
+data/job_descriptions/*
+
+# Models (re-generated at runtime if needed)
+models/*.pkl
+models/*.npy
+models/sbert_model/
+
+# OS
+.DS_Store
+Thumbs.db
